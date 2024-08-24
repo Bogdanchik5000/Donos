@@ -1,0 +1,42 @@
+.profile-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+.btn {
+  margin-top: 20px;
+  max-width: 180px;
+}
+
+.btn-close {
+  margin: 0 auto;
+}
+
+.user-data {
+  display: flex;
+  align-items: center;
+  max-height: 35px;
+}
+
+.set-name {
+  margin-left: 15px;
+  font-size: 16px;
+  color: rgb(87, 81, 81);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.set-name:hover {
+  border-bottom: 1px solid rgb(87, 81, 81);
+}
+
+.set-name-marks {
+  display: inline-flex;
+  gap: 0 10px;
+  margin-left: 10px;
+}
+
+.set-name-marks * {
+  cursor: pointer;
+}

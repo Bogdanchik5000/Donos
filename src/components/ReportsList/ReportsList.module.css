@@ -1,0 +1,41 @@
+.reports-item {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.report-author {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.report-message {
+  font-size: 18px;
+}
+
+.report-slide {
+  text-align: center;
+  padding-bottom: 50px;
+  overflow-wrap: break-word;
+}
+
+.report-actions {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions-icon {
+  cursor: pointer;
+  width: 30px;
+  padding: 5px;
+}
+
+.report-department {
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+  font-size: 16px;
+  font-weight: 600;
+}

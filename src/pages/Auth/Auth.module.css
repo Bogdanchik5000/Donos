@@ -1,0 +1,50 @@
+.auth-mode {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px 0;
+}
+
+.auth-form input {
+  padding: 5px 15px;
+}
+
+.change-form {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.change-form span {
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.another-auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.valid-errors {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.input {
+  outline-color: #2862ac;
+}
+
+.input.error {
+  outline-color: red;
+  border: 2px solid red;
+}

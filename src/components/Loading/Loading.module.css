@@ -1,0 +1,19 @@
+.wrap {
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+  margin-bottom: 30px;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 600;
+}
